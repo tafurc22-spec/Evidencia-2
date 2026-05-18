@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROYECTO 2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="inicio" id="inicio">
+    <h1 id="bloqueTitulo">PROYECTO 2</h1>
+    <p id="bloqueSub">Selecciona una película para ver la imagen y su información.</p>
+  </div>
+
+  <div class="fondo" id="fondo"></div>
+
+  <div class="panel">
+    <p class="panel-titulo">Selecciona una película</p>
+    <hr class="separador" />
+
+    <button class="btn btn-avatar" data-movie="avatar">Avatar</button>
+    <button class="btn btn-walle" data-movie="walle">Wall-E</button>
+    <button class="btn btn-spider" data-movie="spiderman">Spider-Man</button>
+    <button class="btn btn-coraline" data-movie="coraline">Coraline</button>
+    <button class="btn btn-ironman" data-movie="ironman">Iron Man 3</button>
+  </div>
+
+  <div class="etiqueta hidden-ui" id="etiqueta">← Elige una película</div>
+  <div class="info hidden-ui" id="info"></div>
+  <div class="mensaje hidden-ui" id="mensajeSeleccion">Selecciona una película</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
